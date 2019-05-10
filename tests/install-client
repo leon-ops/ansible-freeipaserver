@@ -1,0 +1,2 @@
+yum install -y freeipa-client ipa-admintools
+ipa-client-install --mkhomedir --domain=emv2.com --server=freeipa-test.emv2.com --realm=EMV2.COM --principal admin --password debianipa --hostname=free-2.ipa.emv2.com --unattended
